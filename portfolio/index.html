@@ -12,6 +12,7 @@
     
     .image {
       background-attachment: fixed;
+      background-repeat: no-repeat;
       display: absolute;
       width: 100%;
       height: auto;
@@ -44,6 +45,20 @@
       left: 50%;
       transform: translate(-50%, -50%);
       -ms-transform: translate(-50%, -50%);
+    }
+    .parallax {
+     /* The image used */
+     background-image: url('img/background water1.jpg');
+
+     /* Full height */
+     height: 50%; 
+
+     /* Create the parallax scrolling effect */
+     background-attachment: fixed;
+     background-position: center;
+     background-repeat: no-repeat;
+     background-size: cover;
+     
     }
     </style>
 </head>
@@ -86,24 +101,39 @@ body, h1,h2,h3,h4,h5,h6 {font-family: "Montserrat", sans-serif}
   </a>
 </nav>
 
+
 <!-- Page Content -->
-<div class="w3-padding-large" id="main">
+<div class="w3-padding-large w3-black" id="main">
   <!-- Header/Home -->
-  <header class="w3-container w3-padding-32 w3-center w3-dark-grey" id="home">
-    <h1 class="w3-jumbo"><span class="w3-hide-small">I'm</span> Melchor Lorenz.</h1>
-    <p>A College Student.</p>
-    <div class="container" >
-      <img src="img/professionalpic.jpg" alt="Avatar" class="image">
-      <div class="overlay">
-        <div class="text">Nice meeting you!</div>
-      </div>
-    </div>
+  <header class=" w3-padding-32 w3-center w3-black parallax" id="home">
+    <h1 class="w3-jumbo w3-text-black w3-center"><span class="w3-hide-small w3-text-black">I'm</span> Melchor Lorenz.</h1>
+    <p class="w3-text-black">A College Student.</p>
+    <p>&nbsp</p>
+    <p>&nbsp</p>
+    <p>&nbsp</p>
+    <p>&nbsp</p>
+    <p>&nbsp</p>
+    <p>&nbsp</p>
+    <p>&nbsp</p>
+    <p>&nbsp</p>
+    <p>&nbsp</p>
+    <p>&nbsp</p>
+    <p>&nbsp</p>
+    <p>&nbsp</p>
+    <p>&nbsp</p>
+    <p>&nbsp</p>
+    <p>&nbsp</p>
+    <p>&nbsp</p>
+    <p>&nbsp</p>
+    <p>&nbsp</p>
+    <p>&nbsp</p>
   </header>
+
 
   <!-- About Section -->
   <div class="w3-content w3-justify w3-text-white w3-padding-64" id="about">
     <h2 class="w3-text-light-grey">Melchor Lorenz Delgado</h2>
-    <hr style="width:200px" class="w3-opacity">
+    <hr style="width:400px" class="w3-opacity">
     <p>
         I am Melchor Lorenz Delgado, a College Student passionate about Software Development. Through this portfolio, I aim to showcase my skills, 
         experience, and creative work in a captivating and interactive manner.
@@ -119,6 +149,7 @@ body, h1,h2,h3,h4,h5,h6 {font-family: "Montserrat", sans-serif}
         Please take some time to look through my portfolio.
     </p>
     <h3 class="w3-padding-16 w3-text-light-grey">What Are My Stacks</h3>
+    <hr style="width:270px" class="w3-opacity">
     <div class="w3-row w3-center w3-padding-16 w3-section w3-light-grey">
       <div class="w3-quarter w3-section">
         <span class="w3-xlarge">Flutter</span>
@@ -161,7 +192,7 @@ body, h1,h2,h3,h4,h5,h6 {font-family: "Montserrat", sans-serif}
     <div class=" w3-section">
       <span class="w3-xlarge">Upgrade &nbsp</span>
       <a href="https://github.com/ArthanYdeo/upgradee" target="_blank"> <i class="fa fa-github w3-hover-opacity w3-xxlarge"></i></a>
-      <p> A Game currently developing for our capstone my role in this is Project Manager. This is currently on private.</p>
+      <p> A Game currently developing for our capstone my role in this project is Project Manager. This is currently on private.</p>
     </div>
   </div>
 <!-- End project grid -->
@@ -184,10 +215,9 @@ body, h1,h2,h3,h4,h5,h6 {font-family: "Montserrat", sans-serif}
         Company
       </div>
     </div>
-    </div>
+
   
   <!-- End Portfolio Section -->
-  </div>
 
   <!-- Contact Section -->
   <div class="w3-padding-64 w3-content w3-text-white" id="contact">
